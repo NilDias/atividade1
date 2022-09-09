@@ -1,0 +1,64 @@
+package br.com.voeairlines.frontend;
+
+import br.com.voeairlines.entities.*;
+import br.com.voerairlines.dao.*;
+
+public class Principal {
+
+	public static void main(String[] args) {
+
+		Aeronave aeronave = new Aeronave("Embraery,", "Bandeirante", "EMB-100");
+
+		AeronaveDAO aeronaveDAO = new AeronaveDAO();
+		System.out.println(aeronaveDAO.cadastrarAeronave(aeronave));
+
+		Aeronave aeronave1 = new Aeronave("Embraery,", "Bandeirante", "EMB-110 A");
+
+		AeronaveDAO aeronaveDAO1 = new AeronaveDAO();
+		System.out.println(aeronaveDAO1.cadastrarAeronave(aeronave1));
+
+		Aeronave aeronave2 = new Aeronave("Embraery,", "Bandeirante", "EMB 110 B1");
+
+		AeronaveDAO aeronaveDAO2 = new AeronaveDAO();
+		System.out.println(aeronaveDAO2.cadastrarAeronave(aeronave2));
+
+		Aeronave aeronave3 = new Aeronave("Embraery,", "Bandeirante", "EMB-110 C");
+
+		AeronaveDAO aeronaveDAO3 = new AeronaveDAO();
+		System.out.println(aeronaveDAO3.cadastrarAeronave(aeronave3));
+
+		Aeronave aeronave4 = new Aeronave("Embraery,", "Bandeirante", "EMB-110 C(N)");
+
+		AeronaveDAO aeronaveDAO4 = new AeronaveDAO();
+		System.out.println(aeronaveDAO4.cadastrarAeronave(aeronave4));
+
+		Aeronave aeronave5 = new Aeronave("Embraery,", "Bandeirante", "EMB-110 E");
+
+		AeronaveDAO aeronaveDAO5 = new AeronaveDAO();
+		System.out.println(aeronaveDAO5.cadastrarAeronave(aeronave5));
+
+		Aeronave aeronave6 = new Aeronave("Embraery,", "Bandeirante", "EMB-110 E(J)");
+
+		AeronaveDAO aeronaveDAO6 = new AeronaveDAO();
+		System.out.println(aeronaveDAO6.cadastrarAeronave(aeronave6));
+
+		Aeronave aeronave7 = new Aeronave("Embraery,", "Bandeirante", "EMB-110 K 1");
+
+		AeronaveDAO aeronaveDAO7 = new AeronaveDAO();
+		System.out.println(aeronaveDAO7.cadastrarAeronave(aeronave7));
+
+		Aeronave aeronave8 = new Aeronave("Embraery,", "Bandeirante", "EMB-110 P");
+
+		AeronaveDAO aeronaveDAO8 = new AeronaveDAO();
+		System.out.println(aeronaveDAO8.cadastrarAeronave(aeronave8));
+		
+		Aeronave aeronave9 = new Aeronave("Embraery,",
+				"Bandeirante", "EMB-110 ");
+				
+				AeronaveDAO aeronaveDAO9 = new AeronaveDAO();
+				System.out.println(aeronaveDAO9.cadastrarAeronave (aeronave9)); 
+		
+
+	}
+
+}

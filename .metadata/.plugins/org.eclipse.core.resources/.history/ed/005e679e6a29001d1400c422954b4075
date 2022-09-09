@@ -1,0 +1,15 @@
+package br.com.voerairlines.dao;
+
+import br.com.voeairlines.entities.*;
+
+public class AeronaveDAO {
+	
+	public void cadastrarAeronave(Aeronave aeronave) {
+	
+		System.out.println("Fabricante");
+	aeronave.getCodigo();
+
+}
+
+
+}

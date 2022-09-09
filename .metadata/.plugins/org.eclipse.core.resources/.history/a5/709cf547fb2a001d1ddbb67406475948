@@ -1,0 +1,20 @@
+package br.com.voearlines.bo;
+
+public class ClienteBO implements IValidacaoEmbarque {
+
+	@Override
+	public String ValidaIdade(int idade) {
+		// TODO Auto-generated method stub
+		if(idade < IValidacaoEmbaque.IDADEMIN) {
+			String r;
+			
+			r = "Embarque Não Autorizado";
+			
+		}Else {
+			r = "Embarque Autorizado Boa Viagem";
+		}
+	}
+
+	
+		
+}

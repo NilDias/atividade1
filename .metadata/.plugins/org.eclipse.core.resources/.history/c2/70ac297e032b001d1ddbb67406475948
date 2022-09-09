@@ -1,0 +1,19 @@
+package br.com.voearlines.bo;
+
+
+
+public class PilotoBO implements IValidadeDecolar {
+
+	@Override
+	public String validadeDecolar(String piloto) {
+		
+		String p;
+		if(piloto = IValidadeDecolar.NOMEPILOTO) {
+			p = "Voo Autorizado";
+		}else {
+			p= "Voo Cancelado!";
+		}
+		return null;
+	}
+	
+}

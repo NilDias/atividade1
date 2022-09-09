@@ -1,0 +1,9 @@
+package br.com.voearlines.bo;
+
+public interface IValidadeDecolar {
+	
+	public abstract final String NOMEPILOTO= "ROMULO";
+	
+	public abstract String validadeDecolar( String nome);
+
+}
